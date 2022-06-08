@@ -1,10 +1,9 @@
 import React from "react";
 
 import AnimatedText from "react-animated-text-content";
-import Script from "next/script";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-// import Contactus from "../components/Contactus";
+import Contactus from "../components/Contactus";
 
 export default function Bec2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -96,7 +95,7 @@ export default function Bec2() {
             >
               Create an account
             </button>
-            {/* <Transition appear show={isOpen} as={Fragment}>
+            <Transition appear show={isOpen} as={Fragment}>
               <Dialog as="div" className="relative z-10" onClose={closeModal}>
                 <Transition.Child
                   as={Fragment}
@@ -157,7 +156,7 @@ export default function Bec2() {
                   </div>
                 </div>
               </Dialog>
-            </Transition> */}
+            </Transition>
           </div>
           <div className="basis-6/12 pt-20 ">
             <img src="/assets/be-slider/Images.png" alt="" />

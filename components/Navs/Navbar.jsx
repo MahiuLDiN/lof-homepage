@@ -6,7 +6,7 @@ import Logo from "../../public/assets/logo.png";
 import { Dialog } from "@headlessui/react";
 import Image from "next/image";
 import Link from 'next/link';
-// import Contactus from "../Contactus";
+import Contactus from "../Contactus";
 
 const navigation = [
   { name: "Home", href: "", current: true },
@@ -95,7 +95,7 @@ export default function Example() {
                       >
                         Sign up
                       </button>
-                      {/* <button className="border-2 py-2 px-5 font-medium text-xs rounded-md pink-color sign-in hind">Sign in</button> */}
+                      
 
                       <button
                         className="button button--moema font-medium button--text-upper text-sm rounded-md px-5 py-2"
@@ -104,7 +104,7 @@ export default function Example() {
                         Sign in
                       </button>
 
-                      {/* <Transition appear show={isOpen} as={Fragment}>
+                      <Transition appear show={isOpen} as={Fragment}>
                         <Dialog
                           as="div"
                           className="relative z-10"
@@ -167,7 +167,7 @@ export default function Example() {
                             </div>
                           </div>
                         </Dialog>
-                      </Transition> */}
+                      </Transition>
 
                       {/* Profile dropdown */}
                     </div>

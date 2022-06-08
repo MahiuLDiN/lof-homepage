@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@headlessui/react": "^1.6.4",
     "@heroicons/react": "^1.0.6",
     "next": "12.1.6",
@@ -16,6 +17,7 @@
     "react-animated-text-content": "^1.0.1",
     "react-dom": "18.1.0",
     "sass": "^1.52.2",
+    "sweetalert": "^2.1.2",
     "swiper": "^8.2.2"
   },
   "devDependencies": {
