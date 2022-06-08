@@ -7,6 +7,7 @@ import Bec from "./Bec";
 import Bec2 from "./Bec2";
 import Faq from "./Faq";
 import Whylof from "./Whylof";
+import Hero from "./Hero";
 
 
 export default function Homepage() {
@@ -25,7 +26,7 @@ export default function Homepage() {
         autoplay={false}
       >
         <SwiperSlide >
-         1
+         <Hero/>
         </SwiperSlide>
         <SwiperSlide >
          2
