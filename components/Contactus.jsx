@@ -56,7 +56,7 @@ export default function Contactus() {
               name="name"
               className="bg-transparent  border-b-2 borde-x-0 border-[#d8aaf8] text-white text-sm    block w-full p-2.5  dark:text-white  outline-none "
               required
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
           <div className="mb-6">
@@ -72,7 +72,7 @@ export default function Contactus() {
               name="email"
               className="bg-transparent border-b-2 border-[#d8aaf8] text-white text-sm   outline-none  block w-full p-2.5  dark:text-white "
               required
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
           <div className="mb-6">
@@ -88,7 +88,7 @@ export default function Contactus() {
               name="message"
               className="bg-transparent border-b-2 outline-none  border-[#d8aaf8] text-white text-sm  block w-full p-2.5  dark:text-white "
               required
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
           <div className="flex justify-center">
