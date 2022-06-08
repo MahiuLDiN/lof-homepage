@@ -10,10 +10,11 @@
   z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
+  &:focus{
+    outline: none;
+  }
 }
-.button:focus {
-  outline: none;
-}
+
 .button > span {
   vertical-align: middle;
 }
@@ -22,13 +23,8 @@
   border: 2px solid #d8aaf8;
   -webkit-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
-}
-.button--moema.button--inverted {
-  background: #eceff1;
-  color: #37474f;
-}
-.button--moema::before {
-  content: "";
+  &::before{
+    content: "";
   position: absolute;
   top: -20px;
   left: -10px;
@@ -40,23 +36,29 @@
   opacity: 0.4;
   -webkit-transform: scale3d(0.8, 0.5, 1);
   transform: scale3d(0.8, 0.5, 1);
+  }
+  &:hover{
+    -webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+    transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+    color: #eceff1;
+    background-color: #d8aaf8c4;
+    -webkit-animation: anim-moema-1 0.3s forwards;
+    animation: anim-moema-1 0.3s forwards;
+  }
+  &:hover::before{
+    -webkit-animation: anim-moema-2 0.3s 0.3s forwards;
+    animation: anim-moema-2 0.3s 0.3s forwards;
+  }
 }
-.button--moema:hover {
-  -webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
-  transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
-  color: #eceff1;
-  background-color: #d8aaf8c4;
-  -webkit-animation: anim-moema-1 0.3s forwards;
-  animation: anim-moema-1 0.3s forwards;
+.button--moema.button--inverted {
+  background: #eceff1;
+  color: #37474f;
+  &:hover{
+    color: #eceff1;
+    background-color: #d8aaf8c4;
+  }
 }
-.button--moema.button--inverted:hover {
-  color: #eceff1;
-  background-color: #d8aaf8c4;
-}
-.button--moema:hover::before {
-  -webkit-animation: anim-moema-2 0.3s 0.3s forwards;
-  animation: anim-moema-2 0.3s 0.3s forwards;
-}
+
 @-webkit-keyframes anim-moema-1 {
   60% {
     -webkit-transform: scale3d(0.8, 0.8, 1);
@@ -104,12 +106,12 @@
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-}
-.glow:hover{
-	color: #d8aaf8;
-	/* text-shadow:0px 0px 30px #fff; */
+  &:hover{
+    color: #d8aaf8;
+
 	-moz-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	-webkit-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
+  }
 }
