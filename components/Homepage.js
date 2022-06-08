@@ -3,6 +3,8 @@ import "swiper/css";
 import { Mousewheel } from "swiper";
 import Navbar from "../components/Navs/Navbar"
 import Footer from "./Navs/Footer";
+import Bec from "./Bec";
+import Bec2 from "./Bec2";
 import Faq from "./Faq";
 
 
@@ -31,10 +33,10 @@ export default function Homepage() {
          3
         </SwiperSlide>
         <SwiperSlide >
-         4
+         <Bec/>
         </SwiperSlide>
         <SwiperSlide >
-         5
+         <Bec2/>
         </SwiperSlide>
         <SwiperSlide >
          <Faq/>
