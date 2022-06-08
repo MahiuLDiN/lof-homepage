@@ -17,3 +17,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.main-div{
+height: 100px;
+width: 100px;
+background-color: green;
+h1{
+  color: red($color: #000000);
+}
+}
