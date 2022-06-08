@@ -1,11 +1,14 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Mousewheel } from "swiper";
+import Navbar from "../components/Navs/Navbar"
+import Footer from "./Navs/Footer";
+
 
 export default function Homepage() {
   return (
     <>
+    <Navbar/>
       <Swiper
         style={{
           height: "100vh",
@@ -36,6 +39,7 @@ export default function Homepage() {
          6
         </SwiperSlide>
       </Swiper>
+      <Footer/>
     </>
   );
 }
