@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-// import Contactus from "../Contactus"
+import Contactus from "../Contactus"
 
 export default function Footer() {
   let [isOpen, setIsOpen] = useState(false)
@@ -77,7 +77,7 @@ export default function Footer() {
               </ul>
 
               {/* *************** pop start data ********* */}
-              {/* <Transition appear show={isOpen} as={Fragment}>
+              <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
         <Transition.Child
             as={Fragment}
@@ -123,7 +123,7 @@ export default function Footer() {
             </div>
           </div>
         </Dialog>
-      </Transition> */}
+      </Transition>
               {/* *************** pop End data ********* */}
 
 
