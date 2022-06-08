@@ -1,11 +1,10 @@
 .svg-hover {
 	width: 20px;
 	height: 20px;
+  img{
+    width: 100%;
+    height: auto;
   }
-  
-  .svg-hover img {
-	width: 100%;
-	height: auto;
   }
   
   .svg-hover img:nth-child(2) {

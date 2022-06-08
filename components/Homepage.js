@@ -3,6 +3,7 @@ import "swiper/css";
 import { Mousewheel } from "swiper";
 import Navbar from "../components/Navs/Navbar"
 import Footer from "./Navs/Footer";
+import Faq from "./Faq";
 
 
 export default function Homepage() {
@@ -36,7 +37,7 @@ export default function Homepage() {
          5
         </SwiperSlide>
         <SwiperSlide >
-         6
+         <Faq/>
         </SwiperSlide>
       </Swiper>
       <Footer/>
