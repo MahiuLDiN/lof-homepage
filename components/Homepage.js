@@ -6,6 +6,7 @@ import Footer from "./Navs/Footer";
 import Bec from "./Bec";
 import Bec2 from "./Bec2";
 import Faq from "./Faq";
+import Whylof from "./Whylof";
 
 
 export default function Homepage() {
@@ -30,14 +31,15 @@ export default function Homepage() {
          2
         </SwiperSlide>
         <SwiperSlide >
-         3
-        </SwiperSlide>
-        <SwiperSlide >
          <Bec/>
         </SwiperSlide>
         <SwiperSlide >
          <Bec2/>
         </SwiperSlide>
+        <SwiperSlide >
+         <Whylof/>
+        </SwiperSlide>
+        
         <SwiperSlide >
          <Faq/>
         </SwiperSlide>
