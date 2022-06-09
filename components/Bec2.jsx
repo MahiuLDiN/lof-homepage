@@ -34,12 +34,12 @@ export default function Bec2() {
                 interval={0.06}
                 duration={0.8}
                 tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-2xl  mt-1 lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
+                className="animated-paragraph text-4xl leading-10  md:text-2xl   lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
                 includeWhiteSpaces
                 threshold={0.1}
                 rootMargin="20%"
               >
-                Become A
+                Become a
               </AnimatedText>
               <AnimatedText
                 type="words" // animate words or chars
@@ -58,7 +58,7 @@ export default function Bec2() {
                 threshold={0.1}
                 rootMargin="20%"
               >
-                Creator
+                creator
               </AnimatedText>
             </div>
             <AnimatedText
@@ -140,8 +140,8 @@ export default function Bec2() {
 
                         <div className="p-10">
                           <div className="text-center ">
-                            <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 mono-font">
-                              The LOF platform is in development!{" "}
+                            <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 monofont">
+                              The LOF platform is in development!
                             </h1>
                             <p className="text-white text-xs font-medium hind mb-5">
                               Fill the form below to be among the first content

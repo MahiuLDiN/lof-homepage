@@ -123,7 +123,7 @@ export default function Footer() {
 
                         <div className="p-10">
                           <div className="text-center ">
-                            <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 mono-font">
+                            <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 monofont">
                               Contact us
                             </h1>
                             <p className="text-white text-xs font-medium hind mb-5">
