@@ -416,7 +416,7 @@ export default function privacy() {
                   </p>
                   <br />
                   <p>
-                    Please do not supply any other person's personal data to us,
+                    Please do not supply any other person&apos;s personal data to us,
                     unless we prompt you to do so.
                   </p>
                   <br />
@@ -798,12 +798,12 @@ export default function privacy() {
                     California or US resident, you have the right to request
                     information from us regarding whether we share certain
                     categories of your personal information with third parties
-                    for the third parties' direct marketing purposes. To the
+                    for the third parties&apos; direct marketing purposes. To the
                     extent we share your personal information in this way, you
                     may receive the following information:
                     <br />
                     <span>(a) </span>the categories of information we disclosed
-                    to third parties for the third parties' direct marketing
+                    to third parties for the third parties&apos; direct marketing
                     purposes during the preceding calendar year; and
                     <br />
                     <span>(b) </span> the names and addresses of third parties
@@ -854,7 +854,7 @@ export default function privacy() {
                       <br />
                       If you are a US resident, you may designate an authorized
                       agent to make a request to access or a request to delete
-                      on your behalf. We will respond to your authorized agent's
+                      on your behalf. We will respond to your authorized agent&apos;s
                       request if they submit proof that they are registered with
                       the California Secretary of State to be able to act on
                       your behalf, or submit evidence you have provided them
