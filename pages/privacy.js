@@ -1,6 +1,6 @@
 import React from "react";
-import Pagesnav from "../components/navs/Pagesnav";
-import Pagesfooter from "../components/navs/Pagesfooter";
+import Pagesnav from "../components/Navs/Pagesnav";
+import Pagesfooter from "../components/Navs/Pagesfooter";
 
 export default function privacy() {
   return (
