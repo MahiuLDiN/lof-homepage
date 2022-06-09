@@ -162,8 +162,8 @@ export default function Example() {
 
                                   <div className="p-10">
                                     <div className="text-center ">
-                                      <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 mono-font">
-                                        The LOF platform is in development!{" "}
+                                      <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 monofont">
+                                        The LOF platform is in development!
                                       </h1>
                                       <p className="text-white text-xs font-medium hind mb-5">
                                         Fill the form below to be among the

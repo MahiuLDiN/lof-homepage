@@ -8,7 +8,7 @@ export default function Faq() {
       <div className="h-screen" id="faq">
         <div className="container-fluid  ">
           <div className="flex flex-col lg:flex-row  text-white pt-20  2xl:pt-20 h-screen">
-            <div className=" basis-6/12 md:basis-0 lg:basis-6/12 ml-0 md:ml-40 lg:ml-0 2xl:ml-10 faq-bachi ">
+            <div className=" basis-0 md:basis-0 lg:basis-6/12 ml-0 md:ml-40 lg:ml-0 2xl:ml-10 faq-bachi ">
               <div>
                 <AnimatedText
                   type="words"
