@@ -8,30 +8,34 @@ import Bec2 from "./Bec2";
 import Faq from "./Faq";
 import Whylof from "./Whylof";
 import Hero from "./Hero";
+import Lofplatform from "./Lofplatform";
+import Lofplmobile from "./Lofplmobile";
 
 
 export default function Homepage() {
   return (
     <>
-    <Navbar/>
+     <Navbar/>
       <Swiper
         style={{
           height: "100vh",
         }}
         speed={1200}
-       
+        
         modules={[Mousewheel]}
         className="mySwiper main-sloider faq-sw"
         mousewheel={true}
         autoplay={false}
-      >
+        >
+       
         <SwiperSlide >
          <Hero/>
         </SwiperSlide>
         <SwiperSlide >
-         2
+   <Lofplatform/>
+   <Lofplmobile/>
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide  >
          <Bec/>
         </SwiperSlide>
         <SwiperSlide >

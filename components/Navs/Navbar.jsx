@@ -9,10 +9,10 @@ import Link from 'next/link';
 import Contactus from "../Contactus";
 
 const navigation = [
-  { name: "Home", href: "", current: true },
-  { name: "LOF platform", href: "", current: false },
-  { name: "Become a creator", href: "", current: false },
-  { name: "FAQ", href: "", current: false },
+  { name: "Home", href: "#hero", current: true },
+  { name: "LOF platform", href: "#lofplatform", current: true },
+  { name: "Become a creator", href: "#become", current: true },
+  { name: "FAQ", href: "#faq", current: true },
 ];
 
 function classNames(...classes) {

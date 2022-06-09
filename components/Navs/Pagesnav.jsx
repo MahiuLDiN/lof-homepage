@@ -18,9 +18,9 @@ const user = {
 };
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "LOF platform", href: "#", current: false },
-  { name: "Become a creator", href: "#", current: false },
-  { name: "FAQ", href: "#", current: false },
+  { name: "", href: "#", current: false },
+  { name: "", href: "#", current: false },
+  { name: "", href: "#", current: false },
 ];
 
 function classNames(...classes) {
