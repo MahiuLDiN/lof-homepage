@@ -18,7 +18,7 @@ export default function Bec2() {
   return (
     <>
       
-      <section className="container-fluid" id="become">
+      <section className="container-fluid" >
         <div className="flex flex-col md:flex-row text-white">
           <div className=" basis-6/12  my-auto mt-16 md:mt-52 lg:mt-64 2xl:mt-96">
             <div className="flex">
