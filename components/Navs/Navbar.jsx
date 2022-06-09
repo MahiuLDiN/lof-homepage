@@ -10,7 +10,7 @@ import Contactus from "../Contactus";
 
 const navigation = [
   { name: "Home", href: "#hero", current: true },
-  { name: "LOF platform", href: "#lofplatform", current: true },
+  { name: "LOF platform", href: "#lofplatfrom", current: true },
   { name: "Become a creator", href: "#become", current: true },
   { name: "FAQ", href: "#faq", current: true },
 ];
@@ -62,7 +62,7 @@ export default function Example() {
                               item.current
                                 ? " text-white nav-link"
                                 : "text-white  ",
-                              "px-3 py-2 rounded-md text-sm font-medium hind glow"
+                              "px-3 py-2 rounded-md text-sm font-medium hind glow "
                             )}
                             aria-current={item.current ? "page" : undefined}
                           >
