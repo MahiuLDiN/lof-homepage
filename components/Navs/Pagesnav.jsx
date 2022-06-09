@@ -1,18 +1,26 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment,useState } from "react";
-import { Disclosure,  Transition } from "@headlessui/react";
-import {  MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../public/assets/logo.png";
 import { Dialog } from "@headlessui/react";
-import Image from "next/image";
-import Link from 'next/link';
+import { useState } from "react";
 import Contactus from "../Contactus";
 
+import Image from "next/image";
+import Link from "next/link";
+
+const user = {
+  name: "Tom Cook",
+  email: "tom@example.com",
+  imageUrl:
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+};
 const navigation = [
-  { name: "Home", href: "#hero", current: true },
-  { name: "LOF platform", href: "#lofplatform", current: true },
-  { name: "Become a creator", href: "#become", current: true },
-  { name: "FAQ", href: "#faq", current: true },
+  { name: "Home", href: "/", current: true },
+  { name: "", href: "#", current: false },
+  { name: "", href: "#", current: false },
+  { name: "", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -31,15 +39,15 @@ export default function Example() {
   }
   return (
     <>
-      <div className="min-h-full ">
-        <Disclosure as="nav" className="top-nav fixed  inset-x-0 w-full z-10  text-white">
+      <div className="min-h-full">
+        <Disclosure as="nav">
           {({ open }) => (
             <>
-              <div className=" mx-auto px-4 sm:px-6 lg:px-8 ">
-                <div className="flex items-center  h-16  ">
+              <div className="px-4 mx-auto sm:px-6 lg:px-8">
+                <div className="flex items-center h-16 for-nav ">
                   <div className="flex items-center basis-4/5 md:basis-2/5">
                     <div className="flex-shrink-0 block md:hidden">
-                        <Link href="/">
+                    <Link href="/">
                         <a>
                       <Image
                         className="h-8 w-8"
@@ -50,14 +58,14 @@ export default function Example() {
                       />
                       </a>
                       </Link>
-
                     </div>
                     <div className="hidden md:block ">
-                      <div className=" flex items-baseline space-x-3">
+                      <div className="flex items-baseline space-x-3 ">
                         {navigation.map((item) => (
+                          <Link key={item.name}
+                          href={item.href}>
                           <a
-                            key={item.name}
-                            href={item.href}
+                            
                             className={classNames(
                               item.current
                                 ? " text-white nav-link"
@@ -68,12 +76,13 @@ export default function Example() {
                           >
                             {item.name}
                           </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
                   </div>
-                  <div className=" flex justify-center mx-auto hidden md:block mt-4  ">
-                    <div className="flex-shrink-0  ">
+                  <div className="flex justify-center hidden mx-auto mt-4 md:block">
+                    <div className="flex-shrink-0 ">
                     <Link href="/">
                         <a>
                       <Image
@@ -87,19 +96,19 @@ export default function Example() {
                       </Link>
                     </div>
                   </div>
-                  <div className="hidden md:block basis-2/5">
-                    <div className="ml-4 flex items-center md:ml-6 justify-end gap-4">
+                  <div className="hidden text-white md:block basis-2/5">
+                    <div className="flex items-center justify-end gap-4 ml-4 md:ml-6">
                       <button
-                        className="font-medium text-sm px-5 py-2 rounded-md sign-up hind glow"
                         onClick={openModal}
+                        className="px-5 py-2 text-sm font-medium rounded-md sign-up hind glow"
                       >
                         Sign up
                       </button>
-                      
+                      {/* <button className="px-5 py-2 text-xs font-medium border-2 rounded-md pink-color sign-in hind">Sign in</button> */}
 
                       <button
-                        className="button button--moema font-medium button--text-upper text-sm rounded-md px-5 py-2"
                         onClick={openModal}
+                        className="px-5 py-2 text-sm font-medium rounded-md button button--moema button--text-upper"
                       >
                         Sign in
                       </button>
@@ -153,11 +162,13 @@ export default function Example() {
 
                                   <div className="p-10">
                                     <div className="text-center ">
+                                      <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 mono-font">
+                                        The LOF platform is in development!{" "}
+                                      </h1>
                                       <p className="text-white text-xs font-medium hind mb-5">
-                                        The LOF platform is in development! Fill
-                                        the form below to be among the first
-                                        content creators to be notified as soon
-                                        as we are ready to launch!
+                                        Fill the form below to be among the
+                                        first content creators to be notified as
+                                        soon as we are ready to launch!
                                       </p>
                                     </div>
                                     <Contactus />
@@ -172,15 +183,15 @@ export default function Example() {
                       {/* Profile dropdown */}
                     </div>
                   </div>
-                  <div className="-mr-2 flex md:hidden">
+                  <div className="flex -mr-2 md:hidden">
                     {/* Mobile menu button */}
-                    <Disclosure.Button className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                    <Disclosure.Button className="inline-flex items-center justify-center p-2 text-gray-400 `rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open main menu</span>
                       {open ? (
-                        <XIcon className="block h-6 w-6" aria-hidden="true" />
+                        <XIcon className="block w-6 h-6" aria-hidden="true" />
                       ) : (
                         <MenuIcon
-                          className="block h-6 w-6"
+                          className="block w-6 h-6"
                           aria-hidden="true"
                         />
                       )}
@@ -189,7 +200,7 @@ export default function Example() {
                 </div>
               </div>
 
-              <Disclosure.Panel className="md:hidden mbl-nav-bg">
+              <Disclosure.Panel className=" md:hidden mbl-nav-bg">
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   {navigation.map((item) => (
                     <Disclosure.Button
@@ -208,27 +219,24 @@ export default function Example() {
                     </Disclosure.Button>
                   ))}
                 </div>
-                <div className="pt-4 pb-3 border-t border-gray-700">
+                <div className="pt-0 text-white border-t border-gray-700 pb-7">
                   <button
                     onClick={openModal}
-                    className="font-medium text-sm px-5 py-2 rounded-md sign-up hind"
+                    className="px-5 py-5 mt-2 text-sm font-medium rounded-md "
                   >
                     Sign up
                   </button>
                   <button
                     onClick={openModal}
-                    className=" button--moema font-medium button--text-upper text-sm rounded-md px-5 py-2"
+                    className="px-5 py-2 text-sm font-medium rounded-md button--moema button--text-upper"
                   >
                     Sign in
                   </button>
-            
                 </div>
               </Disclosure.Panel>
             </>
           )}
         </Disclosure>
-
-      
       </div>
     </>
   );

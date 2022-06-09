@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 export default function Hero() {
   return (
     <>
-      <div className="bg-dark hero " id="Home">
+      <div className="bg-dark hero " id="hero">
         <div className="container-fluid ">
           <div className="flex flex-col pt-5 text-white lg:flex-row lg:pt-28">
             <div
