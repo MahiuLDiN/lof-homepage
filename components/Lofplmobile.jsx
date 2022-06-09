@@ -40,9 +40,9 @@ export default function Lofplmobile() {
               className="mySwiper pl-swiper  "
             >
               <SwiperSlide className="pl-slide flex-col">
-                  <div className="h-32">
+                  <div className="h-32 txt-hide">
 
-                  <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto txt-hide h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+                  <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto  h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                   Create a free account and start browsing content from the
                   hottest models around the world. We have made everything
                   extremely simple and there are no hidden terms.
@@ -51,16 +51,16 @@ export default function Lofplmobile() {
                 
                 <img
                   src="/assets/pl-slider/m-login.png"
-                  className="w-[220px]"
+                  className="w-[220px] set-img  "
                   id="slide1"
                   alt=""
                 />
               </SwiperSlide>
               <SwiperSlide className="pl-slide flex-col">
-                  <div className="h-32">
+                  <div className="h-32 txt-hide">
 
                   
-                <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto txt-hide h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+                <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto  h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                   LOF Platform offers more features than any other fan site.
                   Interact with your favorite content creators <br />
                   like never before.
@@ -68,46 +68,46 @@ export default function Lofplmobile() {
                 </div>
                 <img
                   src="/assets/pl-slider/m-profile.png"
-                  className="w-[220px]"
+                  className="w-[220px] set-img"
                   alt=""
                 />
               </SwiperSlide>
-              <SwiperSlide className="pl-slide flex-col">
-                  <div className="h-32">
+              <SwiperSlide className="pl-slide flex-col ">
+                  <div className="h-32 txt-hide">
 
                  
-                <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto txt-hide h-1/3  w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+                <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto  h-1/3  w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                   Become a content creator? Want to earn by selling your
                   content? At LOF Platform you will keep up to 95% of all your
                   sales. Release your content free of judgement and completely
                   at your own terms.
                 </p>
                 </div>
-                <img src="/assets/pl-slider/m-stream.png" alt="" />
+                <img src="/assets/pl-slider/m-stream.png" className="set-img" alt="" />
               </SwiperSlide>
               <SwiperSlide className="pl-slide flex-col">
-                  <div className="h-32">
+                  <div className="h-32 txt-hide">
 
                   
-                <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto txt-hide h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+                <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto  h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                   View pictures, videos, live streams - or privately message the
                   models. You&apos;ll be able to connect with your favorite content
                   creators.
                 </p>
                 </div>
-                <img src="/assets/pl-slider/m-drop-down.png" alt="" />
+                <img src="/assets/pl-slider/m-drop-down.png" className="set-img" alt="" />
               </SwiperSlide>
               <SwiperSlide className="pl-slide flex-col">
-                  <div className="h-32">
+                  <div className="h-32 txt-hide">
 
                   
-                <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto txt-hide h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+                <p className="text-[12px] md:text-sm tracking-normal leading-6 mx-auto  h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                   Effortless and secure payments. Support your favorite content
                   creator and buy their exclusive content.You can pay using
                   money or crypto.
                 </p>
                 </div>
-                <img src="/assets/pl-slider/m-message.png" alt="" />
+                <img src="/assets/pl-slider/m-message.png" className="set-img" alt="" />
               </SwiperSlide>
             </Swiper>
           </div>

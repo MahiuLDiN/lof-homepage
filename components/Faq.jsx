@@ -86,7 +86,7 @@ export default function Faq() {
               </div>
             </div>
 
-            <div className="basis-6/12 mr-0 ml-0 md:ml-28 lg:ml-0 2xl:mr-20 md:my-auto  ">
+            <div className="basis-6/12 mr-0 ml-0 md:mx-auto lg:ml-0 2xl:mr-20 lg:my-auto  ">
               <Faqpop
                 btntext="What is the LOF platform for?"
                 poptext="LOF Platform is a revolutionary fan platform that allows all

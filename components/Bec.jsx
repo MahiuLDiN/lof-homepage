@@ -20,7 +20,7 @@ export default function Bec2() {
      
       <section className="container-fluid" id="become">
         <div className="flex flex-col md:flex-row text-white">
-          <div className=" basis-6/12  my-auto mt-16 md:mt-52 lg:mt-64 2xl:mt-96">
+          <div className=" basis-6/12  my-auto mt-28 md:mt-52 lg:mt-64 2xl:mt-96">
             <div className="flex">
               <AnimatedText
                 type="words" // animate words or chars
@@ -34,7 +34,7 @@ export default function Bec2() {
                 interval={0.06}
                 duration={0.8}
                 tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-2xl   lg:text-5xl 2xl:text-6xl monofont  md:pb-5 lg:pl-20"
+                className="animated-paragraph text-3xl leading-10  md:text-2xl   lg:text-5xl 2xl:text-6xl monofont  md:pb-5 lg:pl-20"
                 includeWhiteSpaces
                 threshold={0.1}
                 rootMargin="20%"
@@ -53,7 +53,7 @@ export default function Bec2() {
                 interval={0.06}
                 duration={0.8}
                 tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2  pink-color md:pl-5"
+                className="animated-paragraph text-3xl leading-10 pl-3 md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2  pink-color md:pl-5"
                 includeWhiteSpaces
                 threshold={0.1}
                 rootMargin="20%"
@@ -158,7 +158,7 @@ export default function Bec2() {
               </Dialog>
             </Transition>
           </div>
-          <div className="basis-6/12 pt-20 2xl:pt-60">
+          <div className="basis-6/12  pt-20 md:pt-48 lg:pt-20 2xl:pt-60 bec-img">
             <img src="/assets/be-slider/Images.png" alt="" />
           </div>
         </div>

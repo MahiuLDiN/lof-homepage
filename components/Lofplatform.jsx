@@ -48,7 +48,7 @@ export default function Lofplatform() {
       </Head>
       <div className="bg-dark hidden md:block Lof-platform " id="lofplatfrom">
         <div className="container-fluid ">
-          <div className=" text-white pt-48 md:pt-56 lg:pt-32 w-full mbl-resp-plat">
+          <div className=" text-white pt-48 md:pt-32 lg:pt-32 w-full mbl-resp-plat">
             <div className="col  text-center">
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
