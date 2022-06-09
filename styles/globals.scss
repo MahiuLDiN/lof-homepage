@@ -78,6 +78,13 @@ p {
     padding: 0px 3rem;
   }
 }
+.main-sloider{
+	background-image: url(../public/assets/smoke.gif);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+
+}
 
 @import "./navbars";
 @import "./becomeandwhylof";
