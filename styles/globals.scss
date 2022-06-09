@@ -87,6 +87,15 @@ p {
 
 }
 
+/* *************************Hero-sec media-qurries  css start ************** */
+@media only screen and (max-width: 380px) {
+	.mbl-resp-hero{
+		padding-top: 80px;
+	}
+}
+/* *************************Hero-sec media-qurries  css End ************** */
+
+
 @import "./navbars";
 @import "./becomeandwhylof";
 @import "./lofplatform";

@@ -45,3 +45,9 @@
 		min-width: 36px !important;
 	}
   }
+
+  @media only screen and (max-width: 380px) {
+	  .bec-img{
+		  padding-top: 40px;
+	  }
+  }

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Mousewheel } from "swiper";
+import { Mousewheel, } from "swiper";
 import Navbar from "../components/Navs/Navbar"
 import Footer from "./Navs/Footer";
 import Bec from "./Bec";
@@ -20,9 +20,10 @@ export default function Homepage() {
         style={{
           height: "100vh",
         }}
+      
         speed={1200}
         
-        modules={[Mousewheel]}
+        modules={[ Mousewheel  ]}
         className="mySwiper main-sloider faq-sw"
         mousewheel={true}
         autoplay={false}
