@@ -46,7 +46,7 @@ export default function Lofplatform() {
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
         />
       </Head>
-      <div className="bg-dark hidden md:block " id="Lof-platform">
+      <div className="bg-dark hidden md:block Lof-platform " id="lofplatfrom">
         <div className="container-fluid ">
           <div className=" text-white pt-48 md:pt-56 lg:pt-32 w-full mbl-resp-plat">
             <div className="col  text-center">
@@ -66,6 +66,8 @@ export default function Lofplatform() {
             spaceBetween={30}
             centeredSlides={true}
             slideToClickedSlide
+
+            
             loop
             modules={[Pagination, Navigation, Mousewheel]}
             className="mySwiper pl-swiper swiper-full-mobile  "

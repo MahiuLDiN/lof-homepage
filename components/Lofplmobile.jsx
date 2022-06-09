@@ -17,7 +17,7 @@ export default function Lofplmobile() {
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
         />
       </Head>
-      <div className="bg-dark block md:hidden " id="Lof-platform">
+      <div className="bg-dark block md:hidden " >
         <div className="container-fluid ">
           <div className=" text-white pt-24  md:pt-56 lg:pt-32 w-full mbl-resp-plat">
             <div className="col  text-center ">
