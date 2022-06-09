@@ -91,7 +91,7 @@ export default function Lofplmobile() {
                   
                 <p className="text-[12px] md:text-sm  tracking-normal leading-6 mx-auto txt-hide h-1/3 w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
                   View pictures, videos, live streams - or privately message the
-                  models. You'll be able to connect with your favorite content
+                  models. You&apos;ll be able to connect with your favorite content
                   creators.
                 </p>
                 </div>
