@@ -67,7 +67,7 @@ export default function MyModal(props) {
                     </svg>
                   </div>
 
-                  <div className="mt-2 p-10">
+                  <div className="mt-2 p-5 md:p-10">
                     <p className="text-xl hind text-white">{props.poptext}</p>
                   </div>
                 </Dialog.Panel>

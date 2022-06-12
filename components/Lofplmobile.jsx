@@ -35,7 +35,6 @@ export default function Lofplmobile() {
               mousewheel={true}
               centeredSlides
               slideToClickedSlide
-              loop
               modules={[Pagination, Mousewheel, Navigation]}
               className="mySwiper pl-swiper  "
             >

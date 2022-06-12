@@ -125,7 +125,7 @@ export default function Faq() {
                 poptext="Becoming a creator is a very easy and fast process. It does
                     not require any prior knowledge or skill! You just need to
                     fill in a few details and be verified by the platformUsers can pay using a credit card or a crypto wallet. Acceptable cryptocurrencies are BUSD, BNB and of course our native LOF Token. Users who would like to privately purchase content will prefer to use cryptocurrency. If you’re not familiar with cryptocurrency or the process of using it, we have how-to videos in our education center!
-                    moderators before you can start releasing your content."
+                   "
               />
               <Faqpop
                 btntext="How frequent are payouts to content creators?"
