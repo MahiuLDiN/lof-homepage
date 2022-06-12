@@ -36,9 +36,9 @@ export default function Homepage() {
    <Lofplatform/>
    <Lofplmobile/>
         </SwiperSlide>
-        <SwiperSlide  >
+        {/* <SwiperSlide  >
          <Bec/>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide >
          <Bec2/>
         </SwiperSlide>

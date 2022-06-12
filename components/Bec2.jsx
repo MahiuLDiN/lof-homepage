@@ -138,9 +138,9 @@ export default function Bec2() {
                           </svg>
                         </div>
 
-                        <div className="p-10">
+                        <div className="p-5 md:p-10">
                           <div className="text-center ">
-                            <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 monofont">
+                            <h1 className="text-[#d8aaf8] text-lg md:text-3xl font-semibold my-5 monofont">
                               The LOF platform is in development!
                             </h1>
                             <p className="text-white text-xs font-medium hind mb-5">

@@ -53,7 +53,7 @@ export default function Lofplatform() {
               <h1 className="text-3xl monofont leading-8 -m-5">
                 LOF <span className="pink-color">platform</span>
               </h1>
-              <p className="text-[12px] md:text-sm hidden md:block tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[37%] pt-8 font-light ">
+              <p className="text-[12px] md:text-sm 2xl:text-[18px] hidden md:block tracking-normal leading-6 mx-auto txt-hide  w-12/12 md:w-[60%] lg:w-[37%] xl:w-[50%] 2xl:w-[47%] pt-8 font-light ">
                 {ImageText}
               </p>
             </div>
@@ -74,38 +74,40 @@ export default function Lofplatform() {
           >
             <SwiperSlide className="pl-slide">
               <img
-                src="/assets/pl-slider/Login.png"
-                className="w-[220px] "
+                src="/assets/pl-slider/Login.svg"
+                className="w-[220px] img-res "
                 onClick={ImageOneClick}
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide className="pl-slide">
               <img
-                src="/assets/pl-slider/profile.png"
-                className="w-[220px]"
+                src="/assets/pl-slider/profile.svg"
+                className="w-[220px] img-res"
                 onClick={ImageTwoClick}
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide className="pl-slide">
               <img
-                src="/assets/pl-slider/stream.png"
+                src="/assets/pl-slider/stream.svg"
                 onClick={ImageThreeClick}
                 alt=""
+                className="img-res"
               />
             </SwiperSlide>
             <SwiperSlide className="pl-slide">
               <img
-                src="/assets/pl-slider/drop-down.png"
+              className="img-res"
+                src="/assets/pl-slider/dropdown.svg"
                 onClick={ImageFourClick}
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide className="pl-slide">
               <img
-                src="/assets/pl-slider/message.png"
-                className="w-[220px] "
+                src="/assets/pl-slider/message.svg"
+                className="w-[220px] img-res"
                 onClick={ImageFiveClick}
                 alt=""
               />

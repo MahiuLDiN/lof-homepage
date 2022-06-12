@@ -16,12 +16,7 @@ const user = {
   imageUrl:
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 };
-const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "", href: "#", current: false },
-  { name: "", href: "#", current: false },
-  { name: "", href: "#", current: false },
-];
+const navigation = [{ name: "Back", href: "/", current: true }];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -47,35 +42,48 @@ export default function Example() {
                 <div className="flex items-center h-16 for-nav ">
                   <div className="flex items-center basis-4/5 md:basis-2/5">
                     <div className="flex-shrink-0 block md:hidden">
-                    <Link href="/">
+                      <Link href="/">
                         <a>
-                      <Image
-                        className="h-8 w-8"
-                        src={Logo}
-                        alt="Workflow"
-                        width={70}
-                        height={35}
-                      />
-                      </a>
+                          <Image
+                            className="h-8 w-8"
+                            src={Logo}
+                            alt="Workflow"
+                            width={85}
+                            height={40}
+                          />
+                        </a>
                       </Link>
                     </div>
                     <div className="hidden md:block ">
                       <div className="flex items-baseline space-x-3 ">
                         {navigation.map((item) => (
-                          <Link key={item.name}
-                          href={item.href}>
-                          <a
-                            
-                            className={classNames(
-                              item.current
-                                ? " text-white nav-link"
-                                : "text-white  ",
-                              "px-3 py-2 rounded-md text-sm font-medium hind glow"
-                            )}
-                            aria-current={item.current ? "page" : undefined}
-                          >
-                            {item.name}
-                          </a>
+                          <Link key={item.name} href={item.href}>
+                            <a
+                              className={classNames(
+                                item.current
+                                  ? " text-white nav-link"
+                                  : "text-white  ",
+                                "px-3 py-2 rounded-md text-sm font-medium hind glow"
+                              )}
+                              aria-current={item.current ? "page" : undefined}
+                              style={{color:"white"}}
+                            >
+                              <div className="flex justify-center ">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  class="h-5 w-5  mr-3"
+                                  viewBox="0 0 20 20"
+                                  fill="currentColor"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+                                    clip-rule="evenodd"
+                                  />
+                                </svg>
+                                {item.name}
+                              </div>
+                            </a>
                           </Link>
                         ))}
                       </div>
@@ -83,16 +91,16 @@ export default function Example() {
                   </div>
                   <div className="flex justify-center hidden mx-auto mt-4 md:block">
                     <div className="flex-shrink-0 ">
-                    <Link href="/">
+                      <Link href="/">
                         <a>
-                      <Image
-                        className="h-8 w-8"
-                        src={Logo}
-                        alt="Workflow"
-                        width={70}
-                        height={35}
-                      />
-                      </a>
+                          <Image
+                            className="h-8 w-8"
+                            src={Logo}
+                            alt="Workflow"
+                            width={85}
+                            height={40}
+                          />
+                        </a>
                       </Link>
                     </div>
                   </div>
@@ -160,9 +168,9 @@ export default function Example() {
                                     </svg>
                                   </div>
 
-                                  <div className="p-10">
+                                  <div className="p-5 md:p-10">
                                     <div className="text-center ">
-                                      <h1 className="text-[#d8aaf8] text-2xl font-semibold my-5 monofont">
+                                      <h1 className="text-[#d8aaf8] text-lg md:text-3xl font-semibold my-5 monofont">
                                         The LOF platform is in development!
                                       </h1>
                                       <p className="text-white text-xs font-medium hind mb-5">
