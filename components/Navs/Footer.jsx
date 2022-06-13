@@ -126,7 +126,7 @@ export default function Footer() {
                             <h1 className="text-[#d8aaf8] text-lg md:text-3xl font-semibold my-5 monofont">
                               Contact us
                             </h1>
-                            <p className="text-white text-xs font-medium hind mb-5">
+                            <p className="text-white text-xs md:text-sm 2xl:text-lg font-medium hind mb-5">
                               Got question? We’d love to hear from you. Send us
                               a message and we’ll respond as soon as possible.
                             </p>
