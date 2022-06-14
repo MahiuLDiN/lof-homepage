@@ -50,7 +50,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+                    className="monofont pb-6 text-xl ml-2 md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
                     creators
                   </AnimatedText>
@@ -64,7 +64,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+                    className="monofont pb-6 text-xl ml-2 md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
                     and
                   </AnimatedText>
@@ -78,7 +78,7 @@ export default function Faq() {
                       ease: "ease",
                       scale: 1.06,
                     }}
-                    className="monofont pb-6 text-xl md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
+                    className="monofont pb-6 text-xl ml-2 md:ml-2 mt-2 md:text-3xl 2xl:text-5xl font-bold flex  align-middle md:justify-start pink-color "
                   >
                     fans
                   </AnimatedText>
