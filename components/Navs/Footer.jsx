@@ -16,7 +16,7 @@ export default function Footer() {
   }
   return (
     <>
-      <div className="txt-botm absolute bottom-0 left-0 z-10 w-full pb-2.5 ">
+      <div className="txt-botm fixed bottom-0 left-0 z-10 w-full pb-2.5 ">
         <div className="flex flex-col md:flex-row">
           <div className="basis-ful md:basis-1/4 flex gap-3 pl-0 md:pl-11 mb-3 md:mb-0 justify-center md:justify-start">
             <a href="https://twitter.com/LOFcrypto" className="svg-hover">
