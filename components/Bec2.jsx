@@ -23,40 +23,30 @@ export default function Bec2() {
           <div className=" basis-6/12  my-auto mt-16 md:mt-52 lg:mt-64 2xl:mt-96">
             <div className="flex">
               <AnimatedText
-                type="words" // animate words or chars
-                animation={{
-                  x: "200px",
-                  y: "-20px",
-                  scale: 1.1,
-                  ease: "ease-in-out",
-                }}
-                animationType="float"
-                interval={0.06}
+                type="words"
+                interval={0.04}
                 duration={0.8}
-                tag="p"
+                animation={{
+                  x: "-1px",
+                  y: "-100px",
+                  ease: "ease",
+                  scale: 1.06,
+                }}
                 className="animated-paragraph text-4xl leading-10  md:text-2xl   lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 lg:pl-20"
-                includeWhiteSpaces
-                threshold={0.1}
-                rootMargin="20%"
               >
                 Become a
               </AnimatedText>
               <AnimatedText
-                type="words" // animate words or chars
-                animation={{
-                  x: "200px",
-                  y: "-20px",
-                  scale: 1.1,
-                  ease: "ease-in-out",
-                }}
-                animationType="float"
-                interval={0.06}
-                duration={0.8}
-                tag="p"
-                className="animated-paragraph text-4xl leading-10  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
-                includeWhiteSpaces
-                threshold={0.1}
-                rootMargin="20%"
+                 type="words"
+                 interval={0.04}
+                 duration={0.8}
+                 animation={{
+                   x: "-1px",
+                   y: "-100px",
+                   ease: "ease",
+                   scale: 1.06,
+                 }}
+                className="animated-paragraph text-4xl leading-10 pl-3  md:text-3xl lg:text-5xl 2xl:text-6xl monofont pb-2 md:pb-5 pink-color md:pl-5"
               >
                 creator
               </AnimatedText>
@@ -66,26 +56,44 @@ export default function Bec2() {
               interval={0.04}
               duration={0.8}
               animation={{
+                x: "-100px",
                 y: "100px",
                 ease: "ease",
                 scale: 1.06,
               }}
-              className="md:leading-8 text-[18px] lg:pl-20"
+              className="md:leading-8 hidden md:block text-[18px] lg:pl-20"
             >
-              Create an account and we’ll get you started in no time!
+              Create an account and we’ll get you started in no time! 
             </AnimatedText>
             <AnimatedText
               type="words"
               interval={0.04}
               duration={0.8}
               animation={{
+                x: "-100px",
                 y: "100px",
                 ease: "ease",
                 scale: 1.06,
               }}
-              className="md:leading-8 text-[17px] tracking-tight lg:pl-20"
+              className="md:leading-8 hidden md:block text-[17px] tracking-tight lg:pl-20"
             >
               More features, profit and freedom - with dedicated support in
+              everything.
+            </AnimatedText>
+
+            <AnimatedText
+              type="words"
+              interval={0.04}
+              duration={0.8}
+              animation={{
+                x: "-100px",
+                y: "100px",
+                ease: "ease",
+                scale: 1.06,
+              }}
+              className="md:leading-8 block md:hidden text-[17px] tracking-tight lg:pl-20"
+            >
+             Create an account and we’ll get you started in no time! More features, profit and freedom - with dedicated support in
               everything.
             </AnimatedText>
 

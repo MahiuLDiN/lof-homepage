@@ -7,13 +7,13 @@ export default function Hero() {
         <div className="container-fluid ">
           <div className="flex flex-col pt-5 text-white lg:flex-row lg:pt-28">
             <div
-              className="basis-1/5 md:basis-1/3 pt-40 pl-0 md:pt-32 2xl:pt-60 md:pl-10 stroke-[2px] mbl-resp-hero "
+              className="basis-1/5 md:basis-1/3 pt-32 pl-0 md:pt-32 2xl:pt-60 md:pl-10 stroke-[2px] mbl-resp-hero "
               data-aos="fade-right"
             >
-              <h1 className="text-[4.7rem] 2xl:text-[7.7rem] font-black pop main-heading flex lg:justify-start leading-[8rem]">
+              <h1 className="text-[4.7rem] 2xl:text-[7.7rem] font-black pop main-heading flex lg:justify-start ">
                 LONELY
               </h1>
-              <h6 className="flex  ml-1 text-5xl text-[#d8aaf8] font-black pop main-heading2 lg:justify-start">
+              <h6 className="flex  ml-1 text-5xl text-[#d8aaf8] -mt-5 md:-mt-0 font-black pop main-heading2 lg:justify-start">
                 FANS
               </h6>
             </div>
@@ -33,7 +33,7 @@ export default function Hero() {
               <p className="flex  my-3 text-base font-semibold xl:text-lg 2x:text-xl lg:justify-start">
                 Sell any type of content. Easy to start!
               </p>
-              <p className="flex leading-8  text-xs md:leading-8 md:tracking-wider home-txt 2xl:text-base lg:justify-start">
+              <p className="flex leading-5  text-xs md:leading-8 md:tracking-wider home-txt 2xl:text-base lg:justify-start">
                 Completely free of judgement. No surprise account <br />
                 closings or changes in allowed content. Payments <br /> easily
                 and in time.
