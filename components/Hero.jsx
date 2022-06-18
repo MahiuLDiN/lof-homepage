@@ -38,6 +38,11 @@ export default function Hero() {
                 closings or changes in allowed content. Payments <br /> easily
                 and in time.
               </p>
+              <img
+                className="mt-20 block md:hidden "
+                src="/assets/swiper.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
