@@ -66,8 +66,6 @@ export default function Lofplatform() {
             spaceBetween={30}
             centeredSlides={true}
             slideToClickedSlide
-
-            
             loop
             modules={[Pagination, Navigation, Mousewheel]}
             className="mySwiper pl-swiper swiper-full-mobile  "
@@ -98,7 +96,7 @@ export default function Lofplatform() {
             </SwiperSlide>
             <SwiperSlide className="pl-slide">
               <img
-              className="img-res"
+                className="img-res"
                 src="/assets/pl-slider/dropdown.svg"
                 onClick={ImageFourClick}
                 alt=""
@@ -114,7 +112,6 @@ export default function Lofplatform() {
             </SwiperSlide>
           </Swiper>
           {/* *******************desktop  Slider End*********** */}
-         
         </div>
       </div>
     </>
